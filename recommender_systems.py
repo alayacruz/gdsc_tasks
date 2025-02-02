@@ -321,7 +321,7 @@
               "    async function quickchart(key) {\n",
               "      const quickchartButtonEl =\n",
               "        document.querySelector('#' + key + ' button');\n",
-              "      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.\n",
+              "      quickchartButtonEl.disabled = True;  // To prevent multiple clicks.\n",
               "      quickchartButtonEl.classList.add('colab-df-spinner');\n",
               "      try {\n",
               "        const charts = await google.colab.kernel.invokeFunction(\n",
@@ -757,7 +757,7 @@
               "    async function quickchart(key) {\n",
               "      const quickchartButtonEl =\n",
               "        document.querySelector('#' + key + ' button');\n",
-              "      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.\n",
+              "      quickchartButtonEl.disabled = True;  // To prevent multiple clicks.\n",
               "      quickchartButtonEl.classList.add('colab-df-spinner');\n",
               "      try {\n",
               "        const charts = await google.colab.kernel.invokeFunction(\n",
@@ -1079,7 +1079,7 @@
               "    async function quickchart(key) {\n",
               "      const quickchartButtonEl =\n",
               "        document.querySelector('#' + key + ' button');\n",
-              "      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.\n",
+              "      quickchartButtonEl.disabled = True;  // To prevent multiple clicks.\n",
               "      quickchartButtonEl.classList.add('colab-df-spinner');\n",
               "      try {\n",
               "        const charts = await google.colab.kernel.invokeFunction(\n",
@@ -1541,7 +1541,7 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "collapsed": true,
+        "collapsed": True,
         "id": "yOH3ocf1oovS",
         "outputId": "48f7075f-bd10-4bab-e6df-729116071ff2"
       },
